@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_DEPRECATE 1
 #include "stdio.h"
+#include<stdlib.h>
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
 	double ret;
 	if (nums1Size == 0 && nums2Size != 0){
